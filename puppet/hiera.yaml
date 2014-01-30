@@ -1,0 +1,10 @@
+---
+:merge_behavior: deeper
+:backends:
+  - json
+:json:
+  :datadir: /etc/puppet/hiera
+:hierarchy:
+  - "node/%{::fqdn}"
+  - %{::environment}
+  - common

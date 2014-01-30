@@ -1,0 +1,6 @@
+.bundle/
+.vagrant/
+Gemfile.lock
+puppet/modules/
+vendor/
+

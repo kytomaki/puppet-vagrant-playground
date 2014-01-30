@@ -1,0 +1,12 @@
+{
+	"classes" : "git",
+	"packages" : {
+		"telnet" : {
+			"ensure" : "purged"
+		}
+	},
+	"ntp::servers" : [
+		"0.fi.pool.ntp.org",
+		"3.fi.pool.ntp.org"
+		]
+}
