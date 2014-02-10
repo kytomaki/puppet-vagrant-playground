@@ -8,6 +8,6 @@ mod "puppetlabs/git",
 
 mod "puppetlabs/stdlib",
   :git => "https://github.com/puppetlabs/puppetlabs-stdlib.git",
-  :ref => "4.x"
+  :ref => "4.1.0"
 
 # vim: tabstop=2 expandtab shiftwidth=2 softtabstop=2
